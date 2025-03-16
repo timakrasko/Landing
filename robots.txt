@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://movielibrary.com/sitemap.xml
+Sitemap: https://github.com/timakrasko/Landing/sitemap.xml
