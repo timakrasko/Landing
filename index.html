@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="uk">
 
 <head>
   <meta charset="utf-8">
@@ -30,57 +30,71 @@
   <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="img/favicons/apple-icon.png" />
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <title>Інформаційна система бібліотеки фільмів</title>
 
 </head>
 
 <body>
-<header role="banner">
-  <img src="https://sumdu.edu.ua/images/brand/logo-sumdu.svg" alt="Логотип університету">
+<header class="bg-dark text-white text-center py-4">
+  <img src="https://sumdu.edu.ua/images/brand/logo-sumdu.svg" alt="Логотип університету" class="mb-3">
   <h1>Інформаційна система бібліотеки фільмів</h1>
   <h2>Movie Library Information System</h2>
 </header>
 
-<main role="main">
-  <section id="about" aria-labelledby="about-title">
-    <h2>Проєкт</h2>
+<main class="container my-5">
+  <section id="about" class="mb-5">
+    <h2 class="text-primary">Проєкт</h2>
     <p>З кожним днем кінематограф розвивається все швидше і швидше: бюджети збільшуються, з’являються нові режисери та продюсери, поповнюються ряди відомих акторів. Завдяки таким тенденціям кожного сезону створюється дуже велика кількість контенту. В таких умовах черговому споживачу стає дуже важко тримати всю цю інформацію в голові, він вже може не пам’ятати які фільми він дивився, які планував, не кажучи вже про фільми, які дивились ваші друзі або знайомі чи їх враження про певну кінострічку. Дуже зручно, коли з усіма цими задачами тоді може допомогти один додаток на телефон. Саме тому розробка мобільного додатку з бібліотекою фільмів стає актуальною потребою для любителів фільмів та серіалів.
       Ця робота присвячена аналізу та розробці інтуїтивного та функціонального мобільного додатку , який надає можливість користувачам знайти фільм, який він вже дивився, або підібрати за своїм смаком той, який забажає побачити в майбутньому та додати їх до власних кінотек переглянутого за запланованого, також користувач зможе ділитися оцінками фільмів з друзями та дізнаватися їхні враження від перегляду, додаток має стати цінним помічником для кожного, хто любить кіно. Темою роботи є «Інформаційна система бібліотеки фільмів». Кінцевим результатом повинен бути зручний додаток, яким користувач захоче користуватися на регулярній основі.
       Для розробки мобільного додатку було визначено та сплановано використання сучасних технологій та підходів. Основною мовою програмування було обрано Kotlin оскільки вона є лідером у сфері розробки під android, який в свою чергу є найбільш популярною операційною системою для смартфонів. Також будуть використовуватися такі технології як jetpack, kotlinx, firebase, viewmodel та інші інструменти, які допомагають при роботі з дизайном, взаємодією з базами даних, багатопоточністю, аутентифікацією та роботою з життєвими циклами додатка.
     </p>
-
   </section>
 
-  <section id="goal" aria-labelledby="goal-title">
-    <h2>Мета дослідження</h2>
-    <p>Розробка мобільного додатку, що допоможе користувачам вести свої списки переглянутих та запланованих фільмів, лишати свої відгуки до фільмів а також переглядати списки своїх друзів</p>
-  </section>
-
-  <section id="tasks" aria-labelledby="tasks-title">
-    <h2>Основні завдання</h2>
-    <ul>
-      <li>Аналіз аналогічних рішень</li>
-      <li>Розробка архітектури додатку</li>
-      <li>Імплементація функціоналу</li>
-      <li>Тестування та оптимізація</li>
-      <li>Оцінка користувацького досвіду</li>
+  <section id="keywords" class="mb-5">
+    <h2 class="text-primary">Основні завдання</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Мобільний додаток</li>
+      <li class="list-group-item">Android</li>
+      <li class="list-group-item">Firebase</li>
+      <li class="list-group-item">Kotlin</li>
+      <li class="list-group-item">Бібліотека фільмів</li>
     </ul>
   </section>
 
-  <section id="results" aria-labelledby="results-title">
-    <h2>Очікувані результати</h2>
-    <p>Отримати функціональний мобільний додаток, в якому авторизований користувач може зайти в бібліотеку, обрати фільм та додати його до списку переглянутих/запланованих. Також є можливість перейти на особисту сторінку інших користувачів та переглянути їх колекції фільмів</p>
+  <section id="goal" class="mb-5">
+    <h2 class="text-primary">Мета дослідження</h2>
+    <p>Розробка мобільного додатку для ведення списків переглянутих та запланованих фільмів.</p>
   </section>
 
-  <section id="contact" aria-labelledby="contact-title">
-    <h2>Контакти</h2>
-    <p>Email: tymofii.krasko@student.sumdu.edu.ua</p>
+  <section id="tasks" class="mb-5">
+    <h2 class="text-primary">Основні завдання</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Аналіз аналогічних рішень</li>
+      <li class="list-group-item">Розробка архітектури додатку</li>
+      <li class="list-group-item">Імплементація функціоналу</li>
+      <li class="list-group-item">Тестування та оптимізація</li>
+      <li class="list-group-item">Оцінка користувацького досвіду</li>
+    </ul>
+  </section>
+
+  <section id="results" class="mb-5">
+    <h2 class="text-primary">Очікувані результати</h2>
+    <p>Отримати функціональний мобільний додаток, в якому авторизований користувач може зайти в бібліотеку, обрати фільм та додати його до списку переглянутих/запланованих. Також є можливість перейти на особисту сторінку інших користувачів та переглянути їх колекції фільмів</p>
+    <img src="img/img.png" alt="Вигляд додатку" class="img-fluid rounded shadow">
+  </section>
+
+  <section id="contact" class="mb-5">
+    <h2 class="text-primary">Контакти</h2>
+    <p>Email: <a href="mailto:tymofii.krasko@student.sumdu.edu.ua">tymofii.krasko@student.sumdu.edu.ua</a></p>
   </section>
 </main>
-<footer role="contentinfo">
-    <p>&copy; 2025 Університет. Усі права захищено.</p>
-</footer>
 
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Університет. Усі права захищено.</p>
+</footer>
 </body>
 
 </html>
