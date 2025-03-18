@@ -27,7 +27,7 @@ This project is a single-page website designed to present a bachelor's thesis, w
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/movie-library-presentation.git
+git clone https://github.com/timakrasko/Landing
 
 # Navigate to the project directory
 cd movie-library-presentation
